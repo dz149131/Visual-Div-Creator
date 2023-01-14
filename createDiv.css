@@ -1,0 +1,54 @@
+#app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#controls {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#controls label {
+    margin: 10px 10px;
+}
+
+#createDiv {
+    background-color: rgb(72, 72, 196);
+    color: white;
+    border: 1px ;
+    padding: 10px 10px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+#createDiv:hover {
+    background-color: rgb(73, 182, 224);
+}
+
+.div {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    margin: 10px;
+}
+
+body {
+    background-color: rgb(170, 199, 157);
+}
+
+#color {
+    height: 30px;
+}
+
+#border-color {
+    height: 30px;
+}
+
+#preview {
+    width: 100%;
+    height: 100%;
+    border: 1px solid black;
+    margin: 10px;
+}
